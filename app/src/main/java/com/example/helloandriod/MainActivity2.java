@@ -11,6 +11,8 @@ import android.widget.Button;
 public class MainActivity2 extends AppCompatActivity {
     private static final String TAG = "MainActivity";
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

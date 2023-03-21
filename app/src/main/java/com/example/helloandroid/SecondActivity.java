@@ -3,19 +3,21 @@ package com.example.helloandroid;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.nfc.Tag;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class SecondActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_second);
+
+
 
         Log.v(TAG,"This is a verbose log.");
         Log.d(TAG,"This is a debug log.");
@@ -27,12 +29,10 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               Log.i(TAG,"Button Clicked");
-                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                Log.i(TAG,"Button Clicked");
+                Intent intent = new Intent(SecondActivity.this, activity_third.class);
                 startActivity(intent);
             }
         });
-
-
     }
 }

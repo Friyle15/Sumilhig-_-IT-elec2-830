@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable copy_icon
+drawable ic_action_name
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable refresh
+id copy
+id refresh
+id search
+layout activity_main
+layout fragment_dialog
+menu main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string hello_blank_fragment
+style Theme.HelloAndroid
